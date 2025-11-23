@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: anime-recommendation
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run interactive.py
+    plan: free
+    branch: main
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
