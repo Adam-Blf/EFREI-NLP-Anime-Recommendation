@@ -11,6 +11,13 @@
 
 # EFREI NLP - Système de Recommandation d'Anime / Anime Recommendation System
 
+![Status](https://img.shields.io/badge/status-academic-blue)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![SBERT](https://img.shields.io/badge/Sentence--Transformers-FFD21E?logo=huggingface&logoColor=black)
+![EFREI M1](https://img.shields.io/badge/EFREI-M1_Data_Eng-000091)
+
 [🇫🇷 Version Française](#version-française) | [🇬🇧 English Version](#english-version)
 
 ---
