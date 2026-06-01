@@ -31,6 +31,28 @@
 
 Moteur de recommandation basé sur **TF-IDF + similarité cosinus** qui suggère des animes similaires à vos favoris en utilisant le traitement du langage naturel sur les synopsis. Projet NLP pratique démontrant la vectorisation de texte, les métriques de similarité et les outils CLI interactifs.
 
+### 🏗️ Architecture
+
+```mermaid
+flowchart TB
+    CSV["data/Anime.csv<br/>titres · synopsis"]
+    Load["data_load<br/>chargement Pandas"]
+    Prep["preprocess<br/>nettoyage des synopsis"]
+    Vec["vectorize<br/>TF-IDF + matrice cosinus"]
+    Reco["recommend<br/>top-N par similarité"]
+    LLM["llm_engine (option)<br/>embeddings SBERT + LLM local"]
+    CLI["interactive · main<br/>CLI Rich"]
+    Web["streamlit_app<br/>interface web"]
+
+    CSV --> Load
+    Load --> Prep
+    Prep --> Vec
+    Vec --> Reco
+    Reco --> CLI
+    Reco --> Web
+    LLM --> Reco
+```
+
 ### ✨ Fonctionnalités
 
 - 🎯 **Filtrage Basé sur le Contenu** : recommandation d'animes basée sur la similarité des synopsis
