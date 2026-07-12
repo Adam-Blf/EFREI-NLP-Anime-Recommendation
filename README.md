@@ -35,13 +35,13 @@ Moteur de recommandation basé sur **TF-IDF + similarité cosinus** qui suggère
 
 ```mermaid
 flowchart TB
-    CSV["data/Anime.csv<br/>titres · synopsis"]
+    CSV["data/Anime.csv<br/>titres - synopsis"]
     Load["data_load<br/>chargement Pandas"]
     Prep["preprocess<br/>nettoyage des synopsis"]
     Vec["vectorize<br/>TF-IDF + matrice cosinus"]
     Reco["recommend<br/>top-N par similarité"]
     LLM["llm_engine (option)<br/>embeddings SBERT + LLM local"]
-    CLI["interactive · main<br/>CLI Rich"]
+    CLI["interactive - main<br/>CLI Rich"]
     Web["streamlit_app<br/>interface web"]
 
     CSV --> Load
@@ -256,7 +256,7 @@ For issues or feature requests, open an issue on GitHub.
 ---
 
 <p align="center">
-  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> · Data Engineer & Fullstack Developer · <a href="https://github.com/Adam-Blf">GitHub</a> · <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
+  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> - Data Engineer & Fullstack Developer - <a href="https://github.com/Adam-Blf">GitHub</a> - <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
 </p>
 
 
