@@ -11,6 +11,8 @@
 
 # EFREI NLP - Système de Recommandation d'Anime / Anime Recommendation System
 
+[![version](https://img.shields.io/badge/version-0.1.0-000091?style=flat-square)](https://github.com/Adam-Blf/EFREI-NLP-Anime-Recommendation/releases)
+
 <!-- adam-badges:start -->
 [![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/EFREI-NLP-Anime-Recommendation?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/EFREI-NLP-Anime-Recommendation/commits) [![visites](https://hits.sh/github.com/Adam-Blf/EFREI-NLP-Anime-Recommendation.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/EFREI-NLP-Anime-Recommendation/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/EFREI-NLP-Anime-Recommendation?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/EFREI-NLP-Anime-Recommendation/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/EFREI-NLP-Anime-Recommendation?style=flat-square)](https://github.com/Adam-Blf/EFREI-NLP-Anime-Recommendation) [![license](https://img.shields.io/github/license/Adam-Blf/EFREI-NLP-Anime-Recommendation?style=flat-square&color=D4A437)](LICENSE)
 <!-- adam-badges:end -->
