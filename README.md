@@ -51,6 +51,15 @@ flowchart TB
     Reco --> CLI
     Reco --> Web
     LLM --> Reco
+
+    classDef c0 fill:#2563eb,stroke:#1e3a8a,stroke-width:2px,color:#ffffff
+    classDef c1 fill:#7c3aed,stroke:#4c1d95,stroke-width:2px,color:#ffffff
+    classDef c2 fill:#0891b2,stroke:#164e63,stroke-width:2px,color:#ffffff
+    classDef c3 fill:#16a34a,stroke:#14532d,stroke-width:2px,color:#ffffff
+    class CSV,LLM c0
+    class Load,Reco c1
+    class Prep,CLI,Web c2
+    class Vec c3
 ```
 
 ### ✨ Fonctionnalités
